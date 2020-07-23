@@ -1,0 +1,21 @@
+platform: nangate45   # ['nangate45']
+
+design_name: a_filter_approx
+
+verilog_files:
+  - src/a_filter_approx.v
+  - src/fos_exact_tra_v1.v
+  - src/fos_exact_tra_v2.v
+  - src/fos_exact_tra_v3.v
+  - src/fos_exact_tra_v4.v
+  - src/fos_exac.v
+  - src/rad4_odd_trunc.v
+  - src/rad4_odd_trunc1.v
+  - src/rad4_odd.v
+  - src/rad4_odd1.v
+sdc_file: constraint.sdc
+
+die_area: "0 0 620.15 620.6"
+core_area: "10.07 11.2 610.27 610.8"
+
+clock_period: 100.000
